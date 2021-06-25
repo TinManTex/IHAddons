@@ -12,27 +12,27 @@ this.requires={}
 this.cpTypes=CpType.TYPE_AFRIKAANS--tex apply to all cps
 --tex or per cp cpType
 --this.cpTypes={
---	briefing_cp=CpType.TYPE_AFRIKAANS,
---	village_cp=CpType.TYPE_AMERICA,
+--	afc0_briefing_cp=CpType.TYPE_AFRIKAANS,
+--	afc0_village_cp=CpType.TYPE_AMERICA,
 --}--cpTypes
 
 --REF TppEnemy._AnnouncePhaseChange, cpSubTypeToLangId
 --this.cpAnounceLangIds="cmmn_ene_pf"--tex apply to all cps
 --tex or per cp
 --this.cpAnounceLangIds={
---	briefing_cp="cmmn_ene_pf",
---	village_cp="cmmn_ene_zrs",
+--	afc0_briefing_cp="cmmn_ene_pf",
+--	afc0_village_cp="cmmn_ene_zrs",
 --}--cpAnounceLangIds
 
 --this.cpSubTypes="PF_C"--tex apply to all cps
 --tex or per cp subtype
 this.cpSubTypes={
-	briefing_cp="PF_C",
-	village_cp="PF_B",
+	afc0_briefing_cp="PF_C",
+	afc0_village_cp="PF_B",
 }--cpSubTypes
 
 this.soldierDefine={
-	briefing_cp = {--17
+	afc0_briefing_cp = {--17
 		"sol_afc0_0000",
 		"sol_afc0_0001",
 		"sol_afc0_0002",
@@ -50,8 +50,8 @@ this.soldierDefine={
 		"sol_afc0_0014",
 		"sol_afc0_0015",
 		"sol_afc0_0016",
-	},--briefing_cp
-	village_cp = {--21
+	},--afc0_briefing_cp
+	afc0_village_cp = {--21
 		"sol_afc0_0017",
 		"sol_afc0_0018",
 		"sol_afc0_0019",
@@ -73,7 +73,7 @@ this.soldierDefine={
 		"sol_afc0_0035",
 		"sol_afc0_0036",
 		"sol_afc0_0037",
-	},--village_cp	
+	},--afc0_village_cp	
 	quest_cp={
 		"sol_quest_0000",
 		"sol_quest_0001",
@@ -90,8 +90,8 @@ this.soldierTypes="PF"--REF EnemyType["TYPE_"..soldierType]--tex apply to all so
 --tex or per soldier type (can only really do main type and extend type, then subtypes would need to match for those soldiers
 --this.soldierTypes={
 --	PF={
---		this.soldierDefine.briefing_cp,
---		this.soldierDefine.village_cp,
+--		this.soldierDefine.afc0_briefing_cp,
+--		this.soldierDefine.afc0_village_cp,
 --	},
 --  CHILD={
 --    
@@ -103,15 +103,17 @@ this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes 
 --this.soldierSubTypes={	
 	--PF_C={
 		--"sol_afc0_0019",
-		--this.soldierDefine.briefing_cp,	
+		--this.soldierDefine.afc0_briefing_cp,	
 	--},
 	--PF_B={
-	--	this.soldierDefine.village_cp,
+	--	this.soldierDefine.afc0_village_cp,
 	--},
 --}--soldierSubTypes
 
 this.routeSets={
-	briefing_cp={
+	--TODO move to common routesets once theyre solid - \Assets\mgo\pack\location\afc0\pack_common\afc0_script.fpkd
+
+	afc0_briefing_cp={
 		priority={
 			"groupA",
 			"groupB",
@@ -165,8 +167,8 @@ this.routeSets={
 				"rt_afc0_d_0036",			
 			},
 		},--sneak_night
-	},--briefing_cp
-	village_cp={
+	},--afc0_briefing_cp
+	afc0_village_cp={
 		priority={
 			"groupA",
 			"groupB",
@@ -235,64 +237,9 @@ this.routeSets={
 				"rt_afc0_d_0031",
 			},
 		},--sneak_night
-	},--village_cp
-	quest_cp--DEBUGNOW  = { USE_COMMON_ROUTE_SETS = true, },
-	--TODO common routesets, see /Assets/tpp/script/location/afgh/afgh_routeSets.lua
-	--refrerenced through location script .requires, see /Assets/tpp/script/location/afgh/afgh.lua .requires
-		 = {
-		priority = {
-			"groupA",
-		},
-		sneak_day = {
-			groupA = {
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-			},
-		},
-		sneak_night = {
-			groupA = {
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-			},
-		},
-		caution = {
-			groupA = {
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-				"rt_quest_dummy_0000",
-			},
-		},
-		hold = {
-			default = {
-			},
-		},
-		sleep = {
-			default = {
-			},
-		},
-		travel = {
-			lrrpHold = {
-			},
-		},
-		nil
-	},--quest_cp
+	},--afc0_village_cp
+
+	quest_cp={USE_COMMON_ROUTE_SETS=true,},
 }--routeSets
 
 this.combatSetting={
