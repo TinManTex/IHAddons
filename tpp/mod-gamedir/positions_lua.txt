@@ -1,3 +1,0 @@
-local positions={
-{pos={1312.019,295.366,2185.895},rotY=139.591,},
-} return positions

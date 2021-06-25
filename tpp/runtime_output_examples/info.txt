@@ -1,1 +1,0 @@
-Just samples of various files IH creates, shifted out so gihub commits aren't filled with the noise of their constant updates.
