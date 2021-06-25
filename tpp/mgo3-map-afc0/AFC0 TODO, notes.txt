@@ -1,0 +1,71 @@
+AFC0 TODO, notes
+
+readme todo, actual todo below that
+TODO of incomplete, unordered and no indication of whether they will or can be done tasks:
+
+locations ambient sound
+doesnt work without mgo init.bnk 
+
+bgm
+
+
+TODO:
+<location>_scripts
+
+routes
+
+combat locators
+
+
+routes
+	currently just have single point routes so soldiers dont move around outside of combat (apart from automatic conversations if they are near a buddy)
+	also as there's no navmesh routes would need to lead around obstacles more carefully than normal
+	havent put any thought
+
+navmesh
+	is the reason soldiers cant navigate properly when in alert 
+	while a bunch of reversing has been done on it, I don't think there's been successful creation of nav meshes
+	need help
+
+
+TODO: test ih features support
+
+|21:09:44:809|info: ResetObjectPool: wkr_WalkerGear_0001==NULL_ID
+would need walker positions
+
+parasite
+
+inter cp lrrp
+
+
+
+actual TODO
+combat locators
+	ex \Assets\tpp\pack\mission2\free\f30010\f30010_fpkd
+	\Assets\tpp\level\location\afgh\block_mission2\large\tent\combat\afgh_tent_combat_f01.fox2.xml"
+	TppCombatLocatorSetData 
+		refs multiple
+		TppCombatLocatorData
+
+	TppGuardTargetData - are these always active on alert?
+		aimpoints
+	whats the usual set up, only 1 per cp?
+	with 2 aimpoints?
+
+---
+what fox2s have cps for free roam (or in general) and move afc0s cps to the equivalent
+	in *_route.fox2 files - \f30020\f30020_fpkd\Assets\tpp\level\location\mafr\block_mission2\large\banana\route\mafr_banana_route_f01.fox2.xml
+	or _npc fox2 files for mission specific
+
+soundbanks:
+start.lua SoundCoreDaemon.SetAssetPath"/Assets/mgo/sound/asset/" 
+so even with game being able to read the coppied .dat will need to install sbp for the level to /Assets/tpp/sound/asset/
+doesnt work without mgo init.bnk
+
+
+bgmphase not being called?
+TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/bgm_fob_ih.fpk" dont work
+
+
+
+E:\GameData\MGS\filetype\fox2\chunk4_dat\Assets\tpp\pack\location\mafr\pack_common\mafr_common_fpkd\Assets\tpp\level\location\mafr\block_common\mafr_common_sound_music.fox2.xml
