@@ -1,2 +1,0 @@
-636704444058198956|cmdToExtCompletedIndex|12
-1|sessionchange

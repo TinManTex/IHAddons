@@ -1,9 +1,0 @@
-ActionTppNewCarried = {
-
-
-WakeUpStates = {
-	"stateNewStandCarriedIdle",
-	"stateNewSquatCarriedIdle",
-},
-
-}

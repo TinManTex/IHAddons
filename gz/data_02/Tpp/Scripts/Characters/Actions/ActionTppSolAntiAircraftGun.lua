@@ -1,9 +1,0 @@
-
-
-
-
-ActionTppSolAntiAircraftGun = {
-WakeUpStates = {
-	"stateAntiAircraftGun",
-},
-}

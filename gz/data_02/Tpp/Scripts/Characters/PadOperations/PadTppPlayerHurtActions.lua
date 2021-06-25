@@ -1,9 +1,0 @@
-PadTppPlayerHurtActions = {
-
-
-
-
-
-Component = PlayerHurtActionPadOperatorComponent, 
-
-}
