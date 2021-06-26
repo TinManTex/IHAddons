@@ -243,6 +243,8 @@ this.routeSets={
 }--routeSets
 
 this.combatSetting={
+	afc0_briefing_cp={USE_COMMON_COMBAT=true,},
+	afc0_village_cp={USE_COMMON_COMBAT=true,},
 	nil
 }--combatSetting
 
