@@ -167,6 +167,32 @@ this.routeSets={
 				"rt_afc0_d_0036",			
 			},
 		},--sneak_night
+		caution={
+			groupA={
+				"rt_afc0_d_0000",
+				"rt_afc0_d_0001",
+				"rt_afc0_d_0002",
+				"rt_afc0_d_0003",
+				"rt_afc0_d_0004",
+				"rt_afc0_d_0005",
+				"rt_afc0_d_0006",
+				"rt_afc0_d_0007",
+				"rt_afc0_d_0008",
+				"rt_afc0_d_0009",
+				"rt_afc0_d_0010",
+				"rt_afc0_d_0032",
+				"rt_afc0_d_0033",
+				"rt_afc0_d_0034",
+				"rt_afc0_d_0035",
+				"rt_afc0_d_0036",
+			},
+			groupB={
+
+			},
+			groupC={
+		
+			},
+		},--caution
 	},--afc0_briefing_cp
 	afc0_village_cp={
 		priority={
@@ -237,6 +263,37 @@ this.routeSets={
 				"rt_afc0_d_0031",
 			},
 		},--sneak_night
+		caution={
+			groupA={
+				"rt_afc0_d_0011",
+				"rt_afc0_d_0012",
+				"rt_afc0_d_0013",
+				"rt_afc0_d_0014",
+				"rt_afc0_d_0015",				
+				"rt_afc0_d_0016",
+				"rt_afc0_d_0017",
+				"rt_afc0_d_0018",
+				"rt_afc0_d_0019",
+				"rt_afc0_d_0020",
+				"rt_afc0_d_0021",				
+				"rt_afc0_d_0022",
+				"rt_afc0_d_0023",
+				"rt_afc0_d_0024",
+				"rt_afc0_d_0025",
+				"rt_afc0_d_0026",				
+				"rt_afc0_d_0027",
+				"rt_afc0_d_0028",
+				"rt_afc0_d_0029",
+				"rt_afc0_d_0030",
+				"rt_afc0_d_0031",
+			},
+			groupB={
+			},
+			groupC={
+			},
+			groupD={
+			},
+		},--caution
 	},--afc0_village_cp
 
 	quest_cp={USE_COMMON_ROUTE_SETS=true,},
@@ -252,6 +309,7 @@ this.InitEnemy=function()
 end
 
 this.SetUpEnemy=function()
+	TppEnemy.RegisterCombatSetting(this.combatSetting)
 	TppEnemy.SetupQuestEnemy()
 end--SetUpEnemy
 
