@@ -12,7 +12,7 @@ this.requires={}
 this.cpTypes=CpType.TYPE_AFRIKAANS--tex apply to all cps
 --tex or per cp cpType
 --this.cpTypes={
---	afc0_briefing_cp=CpType.TYPE_AFRIKAANS,
+--	afc0_briefing_ob=CpType.TYPE_AFRIKAANS,
 --	afc0_village_cp=CpType.TYPE_AMERICA,
 --}--cpTypes
 
@@ -20,19 +20,19 @@ this.cpTypes=CpType.TYPE_AFRIKAANS--tex apply to all cps
 --this.cpAnounceLangIds="cmmn_ene_pf"--tex apply to all cps
 --tex or per cp
 --this.cpAnounceLangIds={
---	afc0_briefing_cp="cmmn_ene_pf",
+--	afc0_briefing_ob="cmmn_ene_pf",
 --	afc0_village_cp="cmmn_ene_zrs",
 --}--cpAnounceLangIds
 
---this.cpSubTypes="PF_C"--tex apply to all cps
+this.cpSubTypes="PF_B"--tex apply to all cps
 --tex or per cp subtype
-this.cpSubTypes={
-	afc0_briefing_cp="PF_C",
-	afc0_village_cp="PF_B",
-}--cpSubTypes
+--this.cpSubTypes={
+--	afc0_briefing_ob="PF_C",
+--	afc0_village_cp="PF_B",
+--}--cpSubTypes
 
 this.soldierDefine={
-	afc0_briefing_cp = {--17
+	afc0_briefing_ob={--17
 		"sol_afc0_0000",
 		"sol_afc0_0001",
 		"sol_afc0_0002",
@@ -48,10 +48,10 @@ this.soldierDefine={
 		"sol_afc0_0012",
 		"sol_afc0_0013",
 		"sol_afc0_0014",
-		"sol_afc0_0015",
-		"sol_afc0_0016",
-	},--afc0_briefing_cp
-	afc0_village_cp = {--21
+		--"sol_afc0_0015",
+		--"sol_afc0_0016",
+	},--afc0_briefing_ob
+	afc0_village_cp={--21
 		"sol_afc0_0017",
 		"sol_afc0_0018",
 		"sol_afc0_0019",
@@ -72,7 +72,7 @@ this.soldierDefine={
 		"sol_afc0_0034",
 		"sol_afc0_0035",
 		"sol_afc0_0036",
-		"sol_afc0_0037",
+		--"sol_afc0_0037",
 	},--afc0_village_cp	
 	quest_cp={
 		"sol_quest_0000",
@@ -90,7 +90,7 @@ this.soldierTypes="PF"--REF EnemyType["TYPE_"..soldierType]--tex apply to all so
 --tex or per soldier type (can only really do main type and extend type, then subtypes would need to match for those soldiers
 --this.soldierTypes={
 --	PF={
---		this.soldierDefine.afc0_briefing_cp,
+--		this.soldierDefine.afc0_briefing_ob,
 --		this.soldierDefine.afc0_village_cp,
 --	},
 --  CHILD={
@@ -103,7 +103,7 @@ this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes 
 --this.soldierSubTypes={	
 	--PF_C={
 		--"sol_afc0_0019",
-		--this.soldierDefine.afc0_briefing_cp,	
+		--this.soldierDefine.afc0_briefing_ob,	
 	--},
 	--PF_B={
 	--	this.soldierDefine.afc0_village_cp,
@@ -112,8 +112,7 @@ this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes 
 
 this.routeSets={
 	--TODO move to common routesets once theyre solid - \Assets\mgo\pack\location\afc0\pack_common\afc0_script.fpkd
-
-	afc0_briefing_cp={
+	afc0_briefing_ob={
 		priority={
 			"groupA",
 			"groupB",
@@ -132,8 +131,8 @@ this.routeSets={
 				"rt_afc0_d_0006",
 				"rt_afc0_d_0007",
 				"rt_afc0_d_0008",
-				"rt_afc0_d_0009",
-				"rt_afc0_d_0010",
+				--TODO: reevaluate position "rt_afc0_d_0009",
+				--TODO: reevaluate position "rt_afc0_d_0010",
 			},
 			groupC={
 				"rt_afc0_d_0032",
@@ -156,8 +155,8 @@ this.routeSets={
 				"rt_afc0_d_0006",
 				"rt_afc0_d_0007",
 				"rt_afc0_d_0008",
-				"rt_afc0_d_0009",
-				"rt_afc0_d_0010",
+				--TODO: reevaluate position "rt_afc0_d_0009",
+				--TODO: reevaluate position "rt_afc0_d_0010",
 			},
 			groupC={
 				"rt_afc0_d_0032",
@@ -178,8 +177,8 @@ this.routeSets={
 				"rt_afc0_d_0006",
 				"rt_afc0_d_0007",
 				"rt_afc0_d_0008",
-				"rt_afc0_d_0009",
-				"rt_afc0_d_0010",
+				--TODO: reevaluate position "rt_afc0_d_0009",
+				--TODO: reevaluate position "rt_afc0_d_0010",
 				"rt_afc0_d_0032",
 				"rt_afc0_d_0033",
 				"rt_afc0_d_0034",
@@ -193,7 +192,7 @@ this.routeSets={
 		
 			},
 		},--caution
-	},--afc0_briefing_cp
+	},--afc0_briefing_ob
 	afc0_village_cp={
 		priority={
 			"groupA",
@@ -229,7 +228,7 @@ this.routeSets={
 				"rt_afc0_d_0028",
 				"rt_afc0_d_0029",
 				"rt_afc0_d_0030",
-				"rt_afc0_d_0031",
+				--TODO: reevaluate position "rt_afc0_d_0031",
 			},
 		},--sneak_day
 		sneak_night= {
@@ -260,7 +259,7 @@ this.routeSets={
 				"rt_afc0_d_0028",
 				"rt_afc0_d_0029",
 				"rt_afc0_d_0030",
-				"rt_afc0_d_0031",
+				--TODO: reevaluate position "rt_afc0_d_0031",
 			},
 		},--sneak_night
 		caution={
@@ -285,7 +284,7 @@ this.routeSets={
 				"rt_afc0_d_0028",
 				"rt_afc0_d_0029",
 				"rt_afc0_d_0030",
-				"rt_afc0_d_0031",
+				--TODO: reevaluate position "rt_afc0_d_0031",
 			},
 			groupB={
 			},
@@ -295,13 +294,50 @@ this.routeSets={
 			},
 		},--caution
 	},--afc0_village_cp
-
 	quest_cp={USE_COMMON_ROUTE_SETS=true,},
 }--routeSets
 
 this.combatSetting={
-	afc0_briefing_cp={USE_COMMON_COMBAT=true,},
-	afc0_village_cp={USE_COMMON_COMBAT=true,},
+	--TODO move to common combat script
+	afc0_briefing_ob={
+		"TppGuardTargetData0000",
+		"TppGuardTargetData0001",
+		"TppGuardTargetData0002",
+	},
+	afc0_village_cp={
+		"TppGuardTargetData0003",
+		"TppGuardTargetData0004",
+		"TppGuardTargetData0005",
+	},
+	--tex doesnt seem to work even though theres vanilla examples of arealists with empty locatorsetnames
+	--[[
+	afc0_briefing_ob={
+		combatAreaList={
+			area1={
+				{guardTargetName="TppGuardTargetData0000",locatorSetName="",},
+			},
+			area2={
+				{guardTargetName="TppGuardTargetData0001",locatorSetName="",},
+			},
+			--area3={
+			--	{guardTargetName="TppGuardTargetData0002",locatorSetName="",},
+			--},
+		},
+	},
+	afc0_village_cp={
+		combatAreaList={
+			area1={
+				{guardTargetName="TppGuardTargetData0002",locatorSetName="",},
+			},
+			area2={
+				{guardTargetName="TppGuardTargetData0003",locatorSetName="",},
+			},
+			--area3={
+			--	{guardTargetName="TppGuardTargetData0005",locatorSetName="",},
+			--},
+		},
+	},
+	--]]
 	nil
 }--combatSetting
 
