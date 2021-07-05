@@ -1,14 +1,8 @@
 AFC0 TODO, notes
-
 GOTCHA: this repo requires the mgo chunk0 location/afc0 files as a base.
 
+addon readme has simplified user facing todo
 
-TODO: test ih features support
-
-|21:09:44:809|info: ResetObjectPool: wkr_WalkerGear_0001==NULL_ID
-would need walker positions
-
-parasite
 
 inter cp lrrp
 
@@ -41,10 +35,6 @@ doesnt work without mgo init.bnk
 
 bgmphase not being called?
 TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/bgm_fob_ih.fpk" dont work
-
-
-
-E:\GameData\MGS\filetype\fox2\chunk4_dat\Assets\tpp\pack\location\mafr\pack_common\mafr_common_fpkd\Assets\tpp\level\location\mafr\block_common\mafr_common_sound_music.fox2.xml
 
 
 briefing_ob sometimes alerts village_cp at same time (approach the cp from the start), other times does not (go around side and the alert soldiers there)
