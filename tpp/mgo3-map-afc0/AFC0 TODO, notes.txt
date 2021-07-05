@@ -1,31 +1,6 @@
 AFC0 TODO, notes
 
-readme todo, actual todo below that
-TODO of incomplete, unordered and no indication of whether they will or can be done tasks:
-
-locations ambient sound
-doesnt work without mgo init.bnk 
-
-bgm
-
-
-TODO:
-<location>_scripts
-
-routes
-
-combat locators
-
-
-routes
-	currently just have single point routes so soldiers dont move around outside of combat (apart from automatic conversations if they are near a buddy)
-	also as there's no navmesh routes would need to lead around obstacles more carefully than normal
-	havent put any thought
-
-navmesh
-	is the reason soldiers cant navigate properly when in alert 
-	while a bunch of reversing has been done on it, I don't think there's been successful creation of nav meshes
-	need help
+GOTCHA: this repo requires the mgo chunk0 location/afc0 files as a base.
 
 
 TODO: test ih features support
@@ -37,10 +12,11 @@ parasite
 
 inter cp lrrp
 
+location scripts
 
-
-actual TODO
 combat locators
+	Not sure what's up with TppCombatLocatorData, hard to see if they do anything.
+
 	ex \Assets\tpp\pack\mission2\free\f30010\f30010_fpkd
 	\Assets\tpp\level\location\afgh\block_mission2\large\tent\combat\afgh_tent_combat_f01.fox2.xml"
 	TppCombatLocatorSetData 
@@ -69,3 +45,6 @@ TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/bgm_fob_ih.fpk" dont wor
 
 
 E:\GameData\MGS\filetype\fox2\chunk4_dat\Assets\tpp\pack\location\mafr\pack_common\mafr_common_fpkd\Assets\tpp\level\location\mafr\block_common\mafr_common_sound_music.fox2.xml
+
+
+briefing_ob sometimes alerts village_cp at same time (approach the cp from the start), other times does not (go around side and the alert soldiers there)
