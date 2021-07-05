@@ -24,12 +24,13 @@ this.cpTypes=CpType.TYPE_AFRIKAANS--tex apply to all cps
 --	afc0_village_cp="cmmn_ene_zrs",
 --}--cpAnounceLangIds
 
-this.cpSubTypes="PF_B"--tex apply to all cps
+--this.cpSubTypes="PF_B"--tex apply to all cps --TODO: ih r255
 --tex or per cp subtype
---this.cpSubTypes={
---	afc0_briefing_ob="PF_C",
---	afc0_village_cp="PF_B",
---}--cpSubTypes
+this.cpSubTypes={
+	afc0_briefing_ob="PF_B",
+	--afc0_briefing_ob="PF_C",
+	afc0_village_cp="PF_B",
+}--cpSubTypes
 
 this.soldierDefine={
 	afc0_briefing_ob={--17
@@ -86,17 +87,17 @@ this.soldierDefine={
 	},
 }--soldierDefine
 
-this.soldierTypes="PF"--REF EnemyType["TYPE_"..soldierType]--tex apply to all soldiers
+--this.soldierTypes="PF"--REF EnemyType["TYPE_"..soldierType]--tex apply to all soldiers --TODO: ih r255
 --tex or per soldier type (can only really do main type and extend type, then subtypes would need to match for those soldiers
---this.soldierTypes={
---	PF={
---		this.soldierDefine.afc0_briefing_ob,
---		this.soldierDefine.afc0_village_cp,
---	},
+this.soldierTypes={
+	PF={
+		this.soldierDefine.afc0_briefing_ob,
+		this.soldierDefine.afc0_village_cp,
+	},
 --  CHILD={
 --    
 --  },
---}--soldierTypes
+}--soldierTypes
 
 this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes for
 --tex or per soldier sub type
