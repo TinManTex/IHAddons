@@ -1,6 +1,10 @@
 AFC0 TODO, notes
 GOTCHA: this repo requires the mgo chunk0 location/afc0 files as a base.
 
+location pack is currently pretty much vanilla mgo
+minus afc0_common_ui culling DroidInfo which doesnt exist in tpp
+and afc0_common_ruleset culling the TPPMP entities
+
 addon readme has simplified user facing todo
 
 
