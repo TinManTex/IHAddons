@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="tpp_loc_afc1" Color="1" Value="Amber Station" />
+    <Entry LangId="sub_location_104" Color="1" Value="Amber Station" />       
+    <Entry LangId="name_mission_104_12050" Color="1" Value="Amber Station name_mission" />
+    <Entry LangId="sub_mission_104_12050" Color="1" Value="Amber Station sub_mission" />
+    <Entry LangId="info_mission_104_12050_00" Color="1" Value="Amber Station info_mission" />
+  </Entries>
+</LangFile>
