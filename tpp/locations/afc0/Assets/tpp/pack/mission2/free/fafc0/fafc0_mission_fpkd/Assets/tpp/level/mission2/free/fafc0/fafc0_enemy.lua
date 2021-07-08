@@ -99,7 +99,7 @@ this.soldierTypes={
 --  },
 }--soldierTypes
 
-this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes for
+this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes
 --tex or per soldier sub type
 --this.soldierSubTypes={	
 	--PF_C={
