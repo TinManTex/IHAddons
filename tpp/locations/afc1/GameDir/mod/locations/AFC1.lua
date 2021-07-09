@@ -15,6 +15,16 @@ local this={
     heightMapTexturePath="/Assets/mgo/ui/texture/map/afc1/afc1_iDroid_clp.ftex",
     photoRealMapTexturePath="/Assets/mgo/ui/texture/map/afc1/afc1_indus_sat_clp.ftex"
   },
-}
-
+  questAreas={      
+    --tex only one area covering map
+    {
+      areaName="afc1",
+      --xMin,yMin,xMax,yMax
+      --a bit bigger than it needs to be but whatever
+      loadArea={102,102,107,107},
+      activeArea={103,103,106,106},
+      invokeArea={103,103,106,106},
+    },
+  },
+}--this
 return this
