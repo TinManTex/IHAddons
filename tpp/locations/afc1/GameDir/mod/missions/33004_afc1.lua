@@ -4,7 +4,7 @@ local this={
 	location="AFC1",
 	startPos={3.847,-5.105,79.635},--rotY=159.648,},
 	packs=function(missionCode)
-		TppPackList.AddMissionPack"/Assets/mgo/pack/location/afc0/pack_common/afc0_script.fpk"--REF TppPackList.AddLocationCommonScriptPack(missionCode), not set up for addon locations. even though mgo location doesnt have common script pack keeping it in there just to be consistant with the other location packs
+		--DEBUGNOW TppPackList.AddMissionPack"/Assets/mgo/pack/location/afc1/pack_common/afc1_script.fpk"--REF TppPackList.AddLocationCommonScriptPack(missionCode), not set up for addon locations. even though mgo location doesnt have common script pack keeping it in there just to be consistant with the other location packs
 	    --REF TppPackList.AddLocationCommonMissionAreaPack(missionCode)-- not set up for addon locations --> 
 	    --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/common/mis_com_helicopter.fpk"--MISSION_COMMON_PACK.HELICOPTER
 	    --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/common/mis_com_mafr.fpk"--MISSION_COMMON_PACK.MAFR_MISSION_AREA--tex actually soldier pack, added below
