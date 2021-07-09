@@ -26,5 +26,15 @@ local this={
       invokeArea={103,103,106,106},
     },
   },
+  --tex location afc1_common.fpk afc1_climateSettings.twpf doesnt have weather support
+  weatherProbabilities={
+    {TppDefine.WEATHER.SUNNY,100},
+    --{TppDefine.WEATHER.SUNNY,70},
+    --{TppDefine.WEATHER.CLOUDY,30}
+  },
+  extraWeatherProbabilities={
+    --{TppDefine.WEATHER.RAINY,60},
+    --{TppDefine.WEATHER.FOGGY,40},
+  },
 }--this
 return this
