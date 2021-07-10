@@ -28,12 +28,15 @@ local this={
   },
   requestTppBuddy2BlockController=true,
   --tex location afc1_common.fpk afc1_climateSettings.twpf doesnt have weather support
-  weatherProbabilities={
-    {TppDefine.WEATHER.SUNNY,100},
-    --{TppDefine.WEATHER.SUNNY,70},
-    --{TppDefine.WEATHER.CLOUDY,30}
+  --times/weather the twpf does support in Utils.WeatherRequest
+  --6:30 - cloudy,rainy
+  --1:00 - clear,rainy
+  weatherProbabilities={    
+    {TppDefine.WEATHER.CLOUDY,70}
+    {TppDefine.WEATHER.SUNNY,30},
   },
   extraWeatherProbabilities={
+    {TppDefine.WEATHER.RAINY,100},
     --{TppDefine.WEATHER.RAINY,60},
     --{TppDefine.WEATHER.FOGGY,40},
   },
