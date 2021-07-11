@@ -19,7 +19,7 @@
           <value>0x00000000</value>
         </property>
         <property name="dataList" type="EntityPtr" container="StringMap" arraySize="2">
-          <value key="afc1_admin_cp">0x04903420</value>
+          <value key="afc1_admin_cp">0x04903520</value>
           <value key="TexturePackLoadConditioner0000">0x0507E080</value>
         </property>
       </staticProperties>
