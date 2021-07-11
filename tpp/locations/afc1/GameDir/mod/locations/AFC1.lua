@@ -32,7 +32,7 @@ local this={
   --6:30 - cloudy,rainy
   --1:00 - clear,rainy
   weatherProbabilities={    
-    {TppDefine.WEATHER.CLOUDY,70}
+    {TppDefine.WEATHER.CLOUDY,70},
     {TppDefine.WEATHER.SUNNY,30},
   },
   extraWeatherProbabilities={
