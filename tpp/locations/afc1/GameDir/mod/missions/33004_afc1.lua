@@ -2,7 +2,11 @@ local this={
 	description="Amber Station Free Roam",
 	missionCode=33004,
 	location="AFC1",
-	startPos={3.847,-5.105,79.635},--rotY=159.648,},
+	startPos={3.847,-5.105,79.635},--rotY=159.648,},--south main entrance
+	--{pos={46.245,6.992,-90.018},rotY=106.905,},--north east pipe fence
+	--{pos={-47.508,-5.277,-97.715},rotY=23.791,},--north west entrance
+	--{pos={-88.233,-7.741,50.745},rotY=-158.378,},--south west ship
+	--{pos={93.708,-5.128,74.872},rotY=-124.019,},--south east yard
 	packs=function(missionCode)
 		--DEBUGNOW TppPackList.AddMissionPack"/Assets/mgo/pack/location/afc1/pack_common/afc1_script.fpk"--REF TppPackList.AddLocationCommonScriptPack(missionCode), not set up for addon locations. even though mgo location doesnt have common script pack keeping it in there just to be consistant with the other location packs
 	    --REF TppPackList.AddLocationCommonMissionAreaPack(missionCode)-- not set up for addon locations --> 
@@ -18,6 +22,7 @@ local this={
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/snd_ene_af.fpk"--EnemyType.TYPE_PF, CpType.TYPE_AFRIKAANS
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/subs_boot_ene_af.fpk"-- f30020_subtitles -> <lang>Voice/<lang>Text/ene_common_af.subp,_str.subp
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/quest_block.fpk"--DEBUGNOW test if solder locators work here or if they need to be after Soldier2GameObject in _mission pack
+	    --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/motion_player_pipe.fpk"--DEBUGNOW IH r256
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/free/fafc1/fafc1_mission.fpk"--tex deviating from the norm a bit and naming it after location rather than free missioncode, also vanilla free mission packs dont have _mission suffix, story have _area to indicate they are just part of the location I guess
 	end,--packs
 	fovaSetupFunc=function(locationName,missionId)
@@ -29,5 +34,35 @@ local this={
 		-- TppSoldierFace.SetBodyFovaUserType{hostage={TppEnemyBodyId.prs6_main0_v00}}
 		-- TppHostage2.SetDefaultBodyFovaId{parts="/Assets/tpp/parts/chara/prs/prs6_main0_def_v00.parts",bodyId=TppEnemyBodyId.prs6_main0_v00}
 	end,--fovaSetupFunc
+	missionMapParams={
+		--tex TODO: no actual heli support yet, but these work as start on foot
+		heliLandPoint={
+			{
+				point=Vector3(3.847,-5.105,79.635),
+				startPoint=Vector3(3.847,-5.105,79.635),
+				routeId="lz_drp_entrance_S|rt_drp_entrance_S",
+			},
+			{
+				point=Vector3(46.245,6.992,-90.018),
+				startPoint=Vector3(46.245,6.992,-90.018),
+				routeId="lz_drp_pipefence_N|rt_drp_pipefence_N",
+			},
+			{
+				point=Vector3(-47.508,-5.277,-97.715),
+				startPoint=Vector3(-47.508,-5.277,-97.715),
+				routeId="lz_drp_entrance_N|rt_drp_entrance_N",
+			},
+			{
+				point=Vector3(-88.233,-7.741,50.745),
+				startPoint=Vector3(-88.233,-7.741,50.745),
+				routeId="lz_drp_ship_S|rt_drp_ship_S",
+			},
+			{
+				point=Vector3(93.708,-5.128,74.872),
+				startPoint=Vector3(93.708,-5.128,74.872),
+				routeId="lz_drp_yard_S|rt_drp_yard_S",
+			},
+		},--heliLandPoint
+	},--missionMapParams
 }--this
 return this
