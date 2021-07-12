@@ -31,9 +31,10 @@ local this={
   --times/weather the twpf does support in Utils.WeatherRequest
   --6:30 - cloudy,rainy
   --1:00 - clear,rainy
-  weatherProbabilities={    
-    {TppDefine.WEATHER.CLOUDY,70},
-    {TppDefine.WEATHER.SUNNY,30},
+  weatherProbabilities={
+    {TppDefine.WEATHER.CLOUDY,100},  
+    --{TppDefine.WEATHER.CLOUDY,70},
+    --{TppDefine.WEATHER.SUNNY,30},
   },
   extraWeatherProbabilities={
     {TppDefine.WEATHER.RAINY,100},
