@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="tpp_loc_afda" Color="1" Value="Gray Rampart" />
+    <Entry LangId="sub_location_103" Color="1" Value="Gray Rampart" />       
+    <Entry LangId="name_mission_103_12040" Color="1" Value="Gray Rampart name_mission" />
+    <Entry LangId="sub_mission_103_12040" Color="1" Value="Gray Rampart sub_mission" />
+    <Entry LangId="info_mission_103_12040_00" Color="1" Value="Gray Rampart info_mission" />
+  </Entries>
+</LangFile>
