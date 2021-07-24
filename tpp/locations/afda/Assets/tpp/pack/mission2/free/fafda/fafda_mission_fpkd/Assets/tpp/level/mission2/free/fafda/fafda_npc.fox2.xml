@@ -119,7 +119,7 @@
           <value>0x04902620</value>
         </property>
         <property name="partsFile" type="FilePtr" container="StaticArray" arraySize="1">
-          <value>/Assets/tpp/parts/chara/pfs/pfs0_main0_def_v00.parts</value>
+          <value>/Assets/tpp/parts/chara/svs/svs0_main0_def_v00.parts</value>
         </property>
         <property name="motionGraphFile" type="FilePtr" container="StaticArray" arraySize="1">
           <value></value>
