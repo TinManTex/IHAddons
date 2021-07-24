@@ -104,7 +104,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="28.63732" y="-5.143885" z="47.0989" w="0" />
+          <value x="70.98102" y="33.83066" z="-3.641433" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -253,7 +253,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="52.08629" y="-13.4986" z="31.10184" w="0" />
+          <value x="6.547523" y="27.92791" z="-60.43303" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -308,7 +308,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="47.44129" y="-5.274447" z="-17.53627" w="0" />
+          <value x="-28.51042" y="38.16023" z="-119.8569" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -365,7 +365,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="-46.53116" y="-5.144109" z="22.51098" w="0" />
+          <value x="-87.02959" y="29.26844" z="10.24915" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -420,7 +420,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="4.454633" y="4.214266" z="-11.94608" w="0" />
+          <value x="-4.996706" y="27.91991" z="71.39008" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
@@ -475,7 +475,7 @@
           <value x="0" y="-0" z="-0" w="1" />
         </property>
         <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="-35.47658" y="-5.296957" z="-72.42742" w="0" />
+          <value x="38.50811" y="38.14449" z="-89.02702" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
