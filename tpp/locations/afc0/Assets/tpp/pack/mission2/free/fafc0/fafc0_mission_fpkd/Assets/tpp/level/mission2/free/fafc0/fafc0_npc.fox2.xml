@@ -20,10 +20,8 @@
         <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
           <value>0x00000000</value>
         </property>
-        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="12">
+        <property name="dataList" type="EntityPtr" container="StringMap" arraySize="62">
           <value key="Soldier2GameObject">0x04902620</value>
-          <value key="afc0_briefing_ob">0x04903420</value>
-          <value key="afc0_village_cp">0x04903520</value>
           <value key="sol_afc0_0000">0x16000000</value>
           <value key="sol_afc0_0001">0x16000010</value>
           <value key="sol_afc0_0002">0x16000020</value>
@@ -136,112 +134,6 @@
           <value key="Blood0">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld01_s1LG.vfx</value>
           <value key="Blood1">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld03_s1LG.vfx</value>
           <value key="Blood2">/Assets/tpp/effect/vfx_data/blood/fx_tpp_splbld06_s1.vfx</value>
-        </property>
-      </staticProperties>
-      <dynamicProperties />
-    </entity>
-    <entity class="GameObjectLocator" classVersion="2" addr="0x04903420" unknown1="272" unknown2="36001">
-      <staticProperties>
-        <property name="name" type="String" container="StaticArray" arraySize="1">
-          <value>afc0_briefing_ob</value>
-        </property>
-        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x049025B0</value>
-        </property>
-        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x04903490</value>
-        </property>
-        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="children" type="EntityHandle" container="List" />
-        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
-          <value>7</value>
-        </property>
-        <property name="typeName" type="String" container="StaticArray" arraySize="1">
-          <value>TppCommandPost2</value>
-        </property>
-        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
-          <value>0</value>
-        </property>
-        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-      </staticProperties>
-      <dynamicProperties />
-    </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x04903490" unknown1="80" unknown2="36004">
-      <staticProperties>
-        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x04903420</value>
-        </property>
-        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="130" y="1" z="1" w="0" />
-        </property>
-        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
-          <value x="0" y="0" z="0" w="1" />
-        </property>
-        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="-12.788" y="9.483" z="166.559" w="0" />
-        </property>
-      </staticProperties>
-      <dynamicProperties />
-    </entity>
-   <entity class="GameObjectLocator" classVersion="2" addr="0x04903520" unknown1="272" unknown2="36001">
-      <staticProperties>
-        <property name="name" type="String" container="StaticArray" arraySize="1">
-          <value>afc0_village_cp</value>
-        </property>
-        <property name="dataSet" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x049025B0</value>
-        </property>
-        <property name="parent" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="transform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x04903550</value>
-        </property>
-        <property name="shearTransform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="pivotTransform" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-        <property name="children" type="EntityHandle" container="List" />
-        <property name="flags" type="uint32" container="StaticArray" arraySize="1">
-          <value>7</value>
-        </property>
-        <property name="typeName" type="String" container="StaticArray" arraySize="1">
-          <value>TppCommandPost2</value>
-        </property>
-        <property name="groupId" type="uint32" container="StaticArray" arraySize="1">
-          <value>0</value>
-        </property>
-        <property name="parameters" type="EntityPtr" container="StaticArray" arraySize="1">
-          <value>0x00000000</value>
-        </property>
-      </staticProperties>
-      <dynamicProperties />
-    </entity>
-    <entity class="TransformEntity" classVersion="0" addr="0x04903550" unknown1="80" unknown2="36004">
-      <staticProperties>
-        <property name="owner" type="EntityHandle" container="StaticArray" arraySize="1">
-          <value>0x04903520</value>
-        </property>
-        <property name="transform_scale" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="130" y="1" z="1" w="0" />
-        </property>
-        <property name="transform_rotation_quat" type="Quat" container="StaticArray" arraySize="1">
-          <value x="0" y="0" z="0" w="1" />
-        </property>
-        <property name="transform_translation" type="Vector3" container="StaticArray" arraySize="1">
-          <value x="43.73393" y="11.76005" z="-90.03412" w="0" />
         </property>
       </staticProperties>
       <dynamicProperties />
