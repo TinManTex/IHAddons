@@ -28,7 +28,7 @@ this.soldierDefine={
 		"sol_afc1_0007",
 		"sol_afc1_0008",
 		"sol_afc1_0009",
-		"sol_afc1_0010",
+		--"sol_afc1_0010",
 		"sol_afc1_0011",
 		"sol_afc1_0012",
 		"sol_afc1_0013",
@@ -48,12 +48,12 @@ this.soldierDefine={
 		"sol_afc1_0027",
 		"sol_afc1_0028",
 
+		--[[
 		"sol_afc1_0029",
 		"sol_afc1_0030",
 		"sol_afc1_0031",
 		"sol_afc1_0032",
 		"sol_afc1_0033",
-		--[[
 		"sol_afc1_0034",
 		"sol_afc1_0035",
 		"sol_afc1_0036",
