@@ -12,17 +12,18 @@ local this={
       --<
       --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/common/mis_com_order_box.fpk",--MISSION_COMMON_PACK.ORDER_BOX)
       --tex split out a lot of stuff that's usually bundled in mission pack
-      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/bgm_fob_ih.fpk"
+      
       TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/ih_soldier_base.fpk"--tex mis_com_mafr isn't actually a complete enemy pack, normal missions roll these files into the mission packs
-      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/common/mis_com_mafr.fpk"--soldier pack
-      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/snd_ene_af.fpk"--EnemyType.TYPE_PF, CpType.TYPE_AFRIKAANS
-      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/subs_boot_ene_af.fpk"-- f30020_subtitles -> <lang>Voice/<lang>Text/ene_common_af.subp,_str.subp
+      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/common/mis_com_afgh.fpk"--soldier pack
+      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/snd_ene_ru.fpk"--EnemyType.TYPE_SOVIET, CpType.TYPE_SOVIET
+      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/subs_boot_ene_ru.fpk"-- f30010_subtitles -> <lang>Voice/<lang>Text/ene_common_ru.subp,_str.subp
       TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/quest_block.fpk"--DEBUGNOW test if solder locators work here or if they need to be after Soldier2GameObject in _mission pack
-      --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/motion_player_pipe.fpk"--DEBUGNOW IH r256
+      --
       TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/free/fafda/fafda_mission.fpk"--tex deviating from the norm a bit and naming it after location rather than free missioncode, also vanilla free mission packs dont have _mission suffix, story have _area to indicate they are just part of the location I guess
+      TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/bgm_fob_ih.fpk"
   end,--packs
   fovaSetupFunc=function(locationName,missionId)
-    TppEneFova.SetupFovaForLocation("mafr")
+    TppEneFova.SetupFovaForLocation"afgh"
     TppSoldierFace.SetUseZombieFova{enabled=true}
     --tex from f30020, but hangs using a SideopsCompanion built hostage quest
     -- local body={{TppEnemyBodyId.prs6_main0_v00,EnemyFova.MAX_REALIZED_COUNT}}
