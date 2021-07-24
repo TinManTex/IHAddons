@@ -9,12 +9,12 @@ this.requires={}
 
 --tex requires the proper vox_ene_common_ soundbank to be loaded, see InfSoundInfo for pack paths 
 --or add the required voxs to your sdf loadbanks
-this.cpTypes=CpType.TYPE_AFRIKAANS--tex apply to all cps
+this.cpTypes=CpType.TYPE_SOVIET--tex apply to all cps
 
 --REF TppEnemy._AnnouncePhaseChange, cpSubTypeToLangId
 --this.cpAnounceLangIds="cmmn_ene_pf"--tex apply to all cps
 
-this.cpSubTypes="PF_A"--tex apply to all cps
+this.cpSubTypes="SOVIET_B"--tex apply to all cps
 
 this.soldierDefine={
 	afda_turbine_cp={
@@ -71,7 +71,7 @@ this.soldierDefine={
 	},
 }--soldierDefine
 
-this.soldierTypes="PF"--REF EnemyType["TYPE_"..soldierType]--tex apply to all soldiers
+this.soldierTypes="SOVIET"--REF EnemyType["TYPE_"..soldierType]--tex apply to all soldiers
 
 this.soldierSubTypes=true--tex true = use cpSubTypes to define soldier subtypes
 
