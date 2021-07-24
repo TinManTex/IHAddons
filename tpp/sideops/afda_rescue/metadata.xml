@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Amber Station Rescue Sideop" Version="r1" Author="TinManTex" Website="">
+  <MGSVersion Version="1.0.15.3" />
+  <SBVersion Version="0.0.0.0" />
+  <Description>Requires Gray Rampart location addon</Description>
+  <QarEntries />
+  <FpkEntries />
+  <FileEntries />
+</ModEntry>
