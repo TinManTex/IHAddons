@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+    <Entry LangId="tpp_loc_afn0" Color="1" Value="Red Fortress" />
+    <Entry LangId="sub_location_102" Color="1" Value="Red Fortress" />       
+    <Entry LangId="name_mission_102_12030" Color="1" Value="Red Fortress name_mission" />
+    <Entry LangId="sub_mission_102_12030" Color="1" Value="Red Fortress sub_mission" />
+    <Entry LangId="info_mission_102_12030_00" Color="1" Value="Red Fortress info_mission" />
+  </Entries>
+</LangFile>
