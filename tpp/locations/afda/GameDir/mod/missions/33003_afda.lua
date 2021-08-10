@@ -37,13 +37,13 @@ local this={
       {
         point=Vector3(-22.625,19.727,122.175),
         startPoint=Vector3(-22.625,19.727,122.175),
-        routeId="lz_drp_river_S|rt_drp_river_S",
+        routeId="lz_drp_afda_river_S|rt_drp_afda_river_S",
       },
       --[[
       {
         point=Vector3(60.91829,33.22544,100.7881),
         startPoint=Vector3(60.91829,33.22544,100.7881),
-        routeId="lz_drp_entrance_S|rt_drp_entrance_S",
+        routeId="lz_drp_afda_entrance_S|rt_drp_afda_entrance_S",
       },
       --]]
     },--heliLandPoint

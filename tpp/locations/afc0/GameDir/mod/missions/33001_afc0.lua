@@ -37,12 +37,12 @@ local this={
       {
         point=Vector3(-71.862,0.584,248.143),
         startPoint=Vector3(-71.862,0.584,248.143),
-        routeId="lz_drp_river_S|rt_drp_river_S",
+        routeId="lz_drp_afc0_river_S|rt_drp_afc0_river_S",
       },
       {
         point=Vector3(-57.259,2.371,-204.524),
         startPoint=Vector3(-57.259,2.371,-204.524),
-        routeId="lz_drp_shack_N|rt_drp_shack_N",
+        routeId="lz_drp_afc0_shack_N|rt_drp_afc0_shack_N",
       },
     },--heliLandPoint
   },--missionMapParams

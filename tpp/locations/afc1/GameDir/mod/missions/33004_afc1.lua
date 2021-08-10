@@ -22,8 +22,8 @@ local this={
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/snd_ene_af.fpk"--EnemyType.TYPE_PF, CpType.TYPE_AFRIKAANS
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/subs_boot_ene_af.fpk"-- f30020_subtitles -> <lang>Voice/<lang>Text/ene_common_af.subp,_str.subp
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/quest_block.fpk"--DEBUGNOW test if solder locators work here or if they need to be after Soldier2GameObject in _mission pack
-	    --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/motion_player_pipe.fpk"--DEBUGNOW IH r256
 	    TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/free/fafc1/fafc1_mission.fpk"--tex deviating from the norm a bit and naming it after location rather than free missioncode, also vanilla free mission packs dont have _mission suffix, story have _area to indicate they are just part of the location I guess
+	    --TppPackList.AddMissionPack"/Assets/tpp/pack/mission2/ih/motion_player_pipe.fpk"--DEBUGNOW IH r256
 	end,--packs
 	fovaSetupFunc=function(locationName,missionId)
 		TppEneFova.SetupFovaForLocation("mafr")
@@ -40,27 +40,27 @@ local this={
 			{
 				point=Vector3(3.847,-5.105,79.635),
 				startPoint=Vector3(3.847,-5.105,79.635),
-				routeId="lz_drp_entrance_S|rt_drp_entrance_S",
+				routeId="lz_drp_afc1_entrance_S|rt_drp_afc1_entrance_S",
 			},
 			{
 				point=Vector3(46.245,6.992,-90.018),
 				startPoint=Vector3(46.245,6.992,-90.018),
-				routeId="lz_drp_pipefence_N|rt_drp_pipefence_N",
+				routeId="lz_drp_afc1_pipefence_N|rt_drp_afc1_pipefence_N",
 			},
 			{
 				point=Vector3(-47.508,-5.277,-97.715),
 				startPoint=Vector3(-47.508,-5.277,-97.715),
-				routeId="lz_drp_entrance_N|rt_drp_entrance_N",
+				routeId="lz_drp_afc1_entrance_N|rt_drp_afc1_entrance_N",
 			},
 			{
 				point=Vector3(-88.233,-7.741,50.745),
 				startPoint=Vector3(-88.233,-7.741,50.745),
-				routeId="lz_drp_ship_S|rt_drp_ship_S",
+				routeId="lz_drp_afc1_ship_S|rt_drp_afc1_ship_S",
 			},
 			{
 				point=Vector3(93.708,-5.128,74.872),
 				startPoint=Vector3(93.708,-5.128,74.872),
-				routeId="lz_drp_yard_S|rt_drp_yard_S",
+				routeId="lz_drp_afc1_yard_S|rt_drp_afc1_yard_S",
 			},
 		},--heliLandPoint
 	},--missionMapParams

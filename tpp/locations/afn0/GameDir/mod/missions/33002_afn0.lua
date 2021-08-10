@@ -37,22 +37,22 @@ local this={
 		  {
 		    point=Vector3(240.353,4.580,135.816),
 		    startPoint=Vector3(240.353,4.580,135.816),
-		    routeId="lz_drp_creek_S|rt_drp_creek_S",--DEBUGNOW NAME
+		    routeId="lz_drp_afn0_creek_S|rt_drp_afn0_creek_S",
 		  },
 		  {
-		    point=Vector3(250.9509,14.68579,-20.3357),
-		    startPoint=Vector3(250.9509,14.68579,-20.3357),
-		    routeId="lz_drp_entrance_N|rt_drp_entrance_N",--Northeast entrance
+		    point=Vector3(250.9509,14,-20.3357),
+		    startPoint=Vector3(250.9509,14,-20.3357),
+		    routeId="lz_drp_afn0_entrance_N|rt_drp_afn0_entrance_N",
 		  },
 		  {
-		    point=Vector3(102.823,9.978523,183.4415),
-		    startPoint=Vector3(102.823,9.978523,183.4415),
-		    routeId="lz_drp_entrance_S|rt_drp_entrance_S",--Northeast entrance
+		    point=Vector3(102.823,9.5,183.4415),
+		    startPoint=Vector3(102.823,10,183.4415),
+		    routeId="lz_drp_afn0_entrance_S|rt_drp_afn0_entrance_S",
 		  },
 		  {
 		    point=Vector3(153.7262,16.33193,-139.1948),
 		    startPoint=Vector3(153.7262,16.33193,-139.1948),
-		    routeId="lz_drp_cliff_N|rt_drp_cliff_N",--Northeast entrance
+		    routeId="lz_drp_afn0_cliff_N|rt_drp_afn0_cliff_N",
 		  },
 		},--heliLandPoint
 	},--missionMapParams
