@@ -1,3 +1,4 @@
+--AFN0.lua
 local this={
   description="Red Fortress",
   locationName="AFN0",
@@ -14,7 +15,30 @@ local this={
     stageRotate=0,
     heightMapTexturePath="/Assets/mgo/ui/texture/map/afn0/afn0_iDroid_clp.ftex",
     photoRealMapTexturePath="/Assets/mgo/ui/texture/map/afn0/afn0_hill_sat_clp.ftex"
+  },--locationMapParams
+  questAreas={      
+    --tex only one area covering map
+    {
+      areaName="afn0",
+      --xMin,yMin,xMax,yMax
+      --a bit bigger than it needs to be but whatever
+      loadArea={102,102,107,107},
+      activeArea={103,103,106,106},
+      invokeArea={103,103,106,106},
+    },
+  },--questAreas
+  requestTppBuddy2BlockController=true,
+  --tex location afn0_common.fpk afn0_climateSettings.twpf doesnt have weather support
+  --times/weather the twpf does support in Utils.WeatherRequest
+  --6:12 - clear,sandstorm
+  --1:00 - clear,sandstorm
+  weatherProbabilities={
+    {TppDefine.WEATHER.SUNNY,100},
+    --{TppDefine.WEATHER.CLOUDY,70},
+    --{TppDefine.WEATHER.SUNNY,30},
   },
-}
-
+  extraWeatherProbabilities={
+    {TppDefine.WEATHER.SANDSTORM,100},
+  },
+}--this
 return this
