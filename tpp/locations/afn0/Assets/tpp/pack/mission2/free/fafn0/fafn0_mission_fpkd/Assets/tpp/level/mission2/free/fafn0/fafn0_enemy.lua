@@ -53,11 +53,6 @@ this.soldierDefine={
 		"sol_afn0_0032",
 		"sol_afn0_0033",
 		"sol_afn0_0034",
-		"sol_afn0_0035",
-		"sol_afn0_0036",
-		"sol_afn0_0037",
-		"sol_afn0_0038",
-		"sol_afn0_0039",
 	},--afn0_fort_cp
 	quest_cp={
 		"sol_quest_0000",
@@ -121,11 +116,6 @@ this.routeSets={
 				"rt_afn0_c_0032",
 				"rt_afn0_c_0033",
 				"rt_afn0_c_0034",
-				"rt_afn0_c_0035",
-				"rt_afn0_c_0036",
-				"rt_afn0_c_0037",
-				"rt_afn0_c_0038",
-				"rt_afn0_c_0039",
 			},
 		},--sneak_day
 		sneak_night= {
@@ -165,11 +155,6 @@ this.routeSets={
 				"rt_afn0_c_0032",
 				"rt_afn0_c_0033",
 				"rt_afn0_c_0034",
-				"rt_afn0_c_0035",
-				"rt_afn0_c_0036",
-				"rt_afn0_c_0037",
-				"rt_afn0_c_0038",
-				"rt_afn0_c_0039",
 			},
 		},--sneak_night
 		caution={
@@ -209,11 +194,6 @@ this.routeSets={
 				"rt_afn0_c_0032",
 				"rt_afn0_c_0033",
 				"rt_afn0_c_0034",
-				"rt_afn0_c_0035",
-				"rt_afn0_c_0036",
-				"rt_afn0_c_0037",
-				"rt_afn0_c_0038",
-				"rt_afn0_c_0039",
 			},
 		},--caution
 	},--afn0_fort_cp
