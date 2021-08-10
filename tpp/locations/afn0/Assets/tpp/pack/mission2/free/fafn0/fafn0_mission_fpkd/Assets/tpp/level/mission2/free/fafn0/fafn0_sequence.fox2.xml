@@ -38,8 +38,9 @@
         <property name="script" type="FilePtr" container="StaticArray" arraySize="1">
           <value>/Assets/tpp/script/mission/mission_main.lua</value>
         </property>
-        <property name="subScripts" type="FilePtr" container="StringMap" arraySize="1">
+        <property name="subScripts" type="FilePtr" container="StringMap" arraySize="2">
           <value key="sequence">/Assets/tpp/level/mission2/free/fafn0/fafn0_sequence.lua</value>
+          <value key="enemy">/Assets/tpp/level/mission2/free/fafn0/fafn0_enemy.lua</value>
         </property>
       </staticProperties>
       <dynamicProperties />
