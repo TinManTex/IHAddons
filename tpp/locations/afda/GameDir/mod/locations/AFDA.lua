@@ -14,7 +14,7 @@ local this={
     stageRotate=0,
     heightMapTexturePath="/Assets/mgo/ui/texture/map/afda/afda_iDroid_clp.ftex",
     photoRealMapTexturePath="/Assets/mgo/ui/texture/map/afda/afda_dam_sat_clp.ftex"
-  },--
+  },--locationMapParams
   questAreas={      
     --tex only one area covering map
     {
@@ -25,14 +25,14 @@ local this={
       activeArea={103,103,106,106},
       invokeArea={103,103,106,106},
     },
-  },
+  },--questAreas
   requestTppBuddy2BlockController=true,
   --tex location afc1_common.fpk afc1_climateSettings.twpf doesnt have weather support
   --times/weather the twpf does support in Utils.WeatherRequest
-  --6:30 - cloudy,rainy
-  --1:00 - clear,rainy
+  --13:00 - clear,rainy
+  --1:00 - rainy
   weatherProbabilities={
-    {TppDefine.WEATHER.CLOUDY,100},  
+    {TppDefine.WEATHER.SUNNY,100},  
     --{TppDefine.WEATHER.CLOUDY,70},
     --{TppDefine.WEATHER.SUNNY,30},
   },
@@ -41,5 +41,5 @@ local this={
     --{TppDefine.WEATHER.RAINY,60},
     --{TppDefine.WEATHER.FOGGY,40},
   },
-}--this locationMapParams
+}--this 
 return this
