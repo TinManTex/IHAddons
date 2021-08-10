@@ -5,7 +5,7 @@ local this = {
         "/Assets/tpp/pack/mission2/quest/ih/afc1_rescue_1.fpk", 
         randomFaceListIH = { gender = "FEMALE", count = 4},
     },
-    locationId = 104,
+    locationId = locationId = TppDefine.LOCATION_ID.AFC1,
     areaName = "afc1",
     iconPos = Vector3(5,3.6,10),
     radius = 4,

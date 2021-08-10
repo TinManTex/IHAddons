@@ -5,7 +5,7 @@ local this = {
         "/Assets/tpp/pack/mission2/quest/ih/afda_rescue_1.fpk", 
         randomFaceListIH = { gender = "FEMALE", count = 4},
     },
-    locationId = 103,
+    locationId = TppDefine.LOCATION_ID.AFDA,
     areaName = "afda",
     iconPos = Vector3(-8,20,27),
     radius = 4,
