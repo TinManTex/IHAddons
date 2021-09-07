@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lba type="2">
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0000|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-0.2999874" y="0" z="46.73268" w="0" />
+    <rotation x="0" y="-0.9271838" z="0" w="-0.3746067" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0001|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="7.56" y="0" z="42.2" w="0" />
+    <rotation x="0" y="-0.9238796" z="0" w="-0.3826833" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0002|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="17.68" y="0" z="28.66" w="0" />
+    <rotation x="0" y="-0.9205049" z="0" w="-0.3907312" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0003|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="33.56" y="0" z="26.27" w="0" />
+    <rotation x="0" y="-0.9238796" z="0" w="-0.3826833" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0004|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="26.75" y="0" z="10.69" w="0" />
+    <rotation x="0" y="-0.9862856" z="0" w="0.1650476" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0005|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="35.56" y="0" z="-3.08" w="0" />
+    <rotation x="0" y="-0.9170601" z="0" w="0.3987491" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0006|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="22.28" y="0" z="-12.68" w="0" />
+    <rotation x="0" y="-0.7660444" z="0" w="0.6427877" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0007|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="21.44" y="0" z="-2.13" w="0" />
+    <rotation x="0" y="-0.3826835" z="0" w="0.9238795" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0008|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="10.74" y="0" z="-20.36" w="0" />
+    <rotation x="0" y="-0.01745155" z="0" w="0.9998477" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0009|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-2.67" y="0" z="-18.76" w="0" />
+    <rotation x="0" y="-0.7193402" z="0" w="-0.6946579" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0010|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-4.75" y="0" z="-36.16" w="0" />
+    <rotation x="0" y="-0.9304176" z="0" w="0.3665012" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0011|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-20.98" y="0" z="-34.22" w="0" />
+    <rotation x="0" y="-0.9099613" z="0" w="0.4146932" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0012|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-24.36" y="0" z="-13.99" w="0" />
+    <rotation x="0" y="-0.9396927" z="0" w="0.34202" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0013|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-35.02" y="0" z="-23.48" w="0" />
+    <rotation x="0" y="-0.9025853" z="0" w="0.4305111" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0014|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-46.22" y="0" z="-10.91" w="0" />
+    <rotation x="0" y="-0.9099613" z="0" w="0.4146932" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0015|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-43.48" y="0" z="4.04" w="0" />
+    <rotation x="0" y="-0.6883545" z="0" w="-0.7253745" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0016|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-31.5" y="0" z="10.95" w="0" />
+    <rotation x="0" y="-0.9366722" z="0" w="0.3502073" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0017|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-38.63" y="0" z="25.09" w="0" />
+    <rotation x="0" y="1" z="0" w="-1E-06" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0018|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-24.28" y="0" z="42.42" w="0" />
+    <rotation x="0" y="-0.9170601" z="0" w="0.3987491" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0019|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-16.49" y="0" z="27.26" w="0" />
+    <rotation x="0" y="-0.3907311" z="0" w="0.9205049" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0020|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-10.25" y="0" z="38.01" w="0" />
+    <rotation x="0" y="-0.3826835" z="0" w="0.9238795" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0021|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="11.76" y="0" z="22.29" w="0" />
+    <rotation x="0" y="-0.3746065" z="0" w="-0.9271839" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0022|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="37.12" y="0" z="42.25" w="0" />
+    <rotation x="0" y="-0.3746065" z="0" w="-0.9271839" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0023|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="40.85" y="0" z="9.7" w="0" />
+    <rotation x="0" y="-0.3007057" z="0" w="-0.953717" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0024|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="23.19" y="0" z="6.46" w="0" />
+    <rotation x="0" y="-0.3255681" z="0" w="-0.9455186" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0025|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="36.24" y="0" z="-26.5" w="0" />
+    <rotation x="0" y="-0.3746065" z="0" w="-0.9271839" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0026|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="12.81" y="0" z="-38.07" w="0" />
+    <rotation x="0" y="-0.3665012" z="0" w="-0.9304176" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0027|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="2.2" y="0" z="-42.14" w="0" />
+    <rotation x="0" y="-0.3665012" z="0" w="-0.9304176" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0028|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="0.18" y="0" z="-42.19" w="0" />
+    <rotation x="0" y="-0.3583679" z="0" w="-0.9335805" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0029|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-1.72" y="0" z="-42.23" w="0" />
+    <rotation x="0" y="-0.3502072" z="0" w="-0.9366723" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0030|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-25.97" y="0" z="-2.5" w="0" />
+    <rotation x="0" y="-0.3907309" z="0" w="-0.9205049" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0031|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-28.07" y="0" z="-2.96" w="0" />
+    <rotation x="0" y="-0.3826833" z="0" w="-0.9238796" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0032|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-29.99" y="0" z="-3.38" w="0" />
+    <rotation x="0" y="-0.3907309" z="0" w="-0.9205049" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0033|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-31.97" y="0" z="-3.81" w="0" />
+    <rotation x="0" y="-0.3502072" z="0" w="-0.9366723" />
+  </locator>
+  <locator name="mtbs_bord001_vrtn003_ev_gim_n0034|srt_mtbs_bord001_vrtn003_ev" dataSet="/Assets/tpp/level/mission2/quest/void/quest_q30211.fox2">
+    <translation x="-33.93" y="0" z="-4.24" w="0" />
+    <rotation x="0" y="-0.3682866" z="0" w="-0.9297123" />
+  </locator>
+</lba>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Medical Plnt2 Shooting Pracice - IH Sideop addon" Version="r1" Author="TinManTex" Website="https://www.nexusmods.com/metalgearsolidvtpp/mods/45">
+  <MGSVersion Version="1.0.15.3" />
+  <SBVersion Version="0.0.0.0" />
+  <Description>Requires IH r252 or later.
+
+Sidop will open after all four platforms on the Command cluster are built, and the third platform on the Medical cluster is built.</Description>
+  <QarEntries />
+  <FpkEntries />
+  <FileEntries />
+</ModEntry>

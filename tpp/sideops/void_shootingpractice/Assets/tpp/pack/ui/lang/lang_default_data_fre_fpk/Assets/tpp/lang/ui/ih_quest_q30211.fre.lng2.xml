@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LangFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Endianess="BigEndian">
+  <Entries>
+  	<Entry LangId="name_q30211" Color="5" Value="Target Practice (The Void)" />
+    <Entry LangId="info_q30211" Color="1" Value="Destroy all the shooting targets on the platform within the time limit. Stand at the starting point and press the Action Button (&lt;I=G=ACTION&gt;) to make the targets appear and the training begin.&#xA;&#xA;" />
+  </Entries>
+</LangFile>
